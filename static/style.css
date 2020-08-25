@@ -1,0 +1,56 @@
+.space {
+  margin-top: 50px; }
+
+a:link {
+  color: #820509;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold; }
+
+a:visited {
+  color: #820509;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold; }
+
+a:hover {
+  color: #010f42;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold; }
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+  font-size: 24px;
+  font-weight: bold; }
+
+.booksbg {
+  background-image: url("tacc-logo.jpg");
+  height: 100%;
+  width: 100%; }
+
+#information {
+  font-size: 22px;
+  text-align: left}
+
+.formcenterpage {
+  margin: 0 auto;
+  width: 400px; }
+
+.formstyleallinputs {
+  font-size: 20px;
+  height: 15px;
+  width: 200px; }
+
+.formstylemessageinput {
+  font-size: 30px;
+  height: 80px;
+  width: 600px;
+  background-color: #afbcd1; }
+
+/*# sourceMappingURL=mystyle1.css.map */

@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Search
+{% endblock %}
+
+{% block body %}
+
+
+      <h1 align="center"> Search Biocontainers @ TACC ! </h1><br><br>
+      <form action="{{ url_for('search') }}" method="post">
+         <div class="formcenterpage">
+           BiotoolsID:   <input name="biotoolsid" type="text" placeholder="biotoolsID" class="formstyleall" style="text-align:center"><br><br>
+           Name:  <input name="name" type="text" placeholder="Tool Name" class="formstyleall" style="text-align:center"><br><br>
+           <button type="submit" value="search" style="height:40px; width:100px;">Search</button>
+    	   </div>
+      </form>
+      <a href="{{ url_for('home') }}">Homepage</a><br>
+
+
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Biocontainers in HPC @ TACC
+{% endblock %}
+
+{% block body %}
+    <img src="/static/tacc-logo.jpg"><br><br>
+    <h1 align="center" font-weight="bold"> Introduction to Biocontainers </h1>
+    <p>
+      BioContainers is a community-driven project that provides the infrastructure and basic guidelines to create, manage and distribute Bioinformatics containers with special focus in Proteomics, Genomics, Transcriptomics and Metabolomics. BioContainers is based on the popular frameworks of Docker.
+      <br><br>
+      <h2>BioContainers Goals:</h2>
+
+      Provide a base specification and images to easily build and deploy new bioinformatics/proteomics software including the source and examples.
+      Provide a series of containers ready to be used by the bioinformatics community (https://github.com/BioContainers/containers).
+      Define a set of guidelines and specifications to build a standardized container that can be used in combination with other containers and bioinformatics tools.
+      Define a complete infrastructure to develop, deploy and test new bioinformatics containers using continuous integration suites such as Travis Continuous Integration (https://travisci. org/), Shippable (https://app.shippable.com/) or manually built solutions.
+      Provide support and help to the bioinformatics community to deploy new containers for researchers that do not have bioinformatics support.
+      Provide guidelines and help on how to create reproducible pipelines by defining, reusing and reporting specific container versions which will consistently produce the exact same result and always be available in the history of the container.
+      Coordinate and integrate developers and bioinformaticians to produce best practice of documentation and software development.
+    </p>
+    <br><br>
+    <a href="{{ url_for('searchpage') }}">Search Biocontainers</a>
+{% endblock %}
