@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Add Biocontainer
+{% endblock %}
+
+{% block body %}
+
+
+      <h1 align="center"> Add new Biocontainer </h1><br><br>
+      <form action="{{ url_for('addbiocontainer') }}" method="post">
+         <div class="formcenterpage">
+           Name:  <input name="name" type="text" placeholder="Name" class="formstyleall" style="text-align:center"><br><br>
+           Category:  <input name="category" type="text" placeholder="Category" class="formstyleall" style="text-align:center"><br><br>
+           Keywords:  <input name="keywords" type="text" placeholder="Keywords" class="formstyleall" style="text-align:center"><br><br>
+           Description:  <input name="description" type="text" placeholder="Description" class="formstyleall" style="text-align:center"><br><br>
+           URL:  <input name="url" type="text" placeholder="URL" class="formstyleall" style="text-align:center"><br><br>
+           Version:  <input name="version" type="text" placeholder="Version" class="formstyleall" style="text-align:center"><br><br>
+           Module Name:  <input name="module_name" type="text" placeholder="Module Name" class="formstyleall" style="text-align:center"><br><br>
+           <button type="submit" value="search" style="height:40px; width:100px;">Add</button>
+    	   </div>
+      </form>
+      <br><br>
+      <a href="{{ url_for('home') }}">Homepage</a><br>
+
+
+{% endblock %}

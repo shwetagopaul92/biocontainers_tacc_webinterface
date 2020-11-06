@@ -1,33 +1,33 @@
 .space {
   margin-top: 50px; }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a:link {
-  color: #820509;
+  color: #0000EE;
   background-color: transparent;
-  text-decoration: none;
-  font-size: 24px;
-  font-weight: bold; }
+  text-decoration: underline;
+}
 
 a:visited {
-  color: #820509;
+  color: #0000EE;
   background-color: transparent;
-  text-decoration: none;
-  font-size: 24px;
-  font-weight: bold; }
+  text-decoration: underline;
+}
 
 a:hover {
-  color: #010f42;
+  color: #000000;
   background-color: transparent;
-  text-decoration: none;
-  font-size: 24px;
-  font-weight: bold; }
+  text-decoration: underline;
+ }
 
 a:active {
   color: yellow;
   background-color: transparent;
   text-decoration: underline;
-  font-size: 24px;
-  font-weight: bold; }
+ }
 
 .booksbg {
   background-image: url("tacc-logo.jpg");
@@ -53,4 +53,32 @@ a:active {
   width: 600px;
   background-color: #afbcd1; }
 
-/*# sourceMappingURL=mystyle1.css.map */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table a
+{
+  display:block;
+  text-decoration:none;
+}
+
+table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;
+      border: 1px solid #ddd;
+      table-layout:auto;
+   }
+   th, td {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 16px;
+      text-align: left;
+      padding: 8px;
+
+   }
+   tr:nth-child(even) {
+      background-color: #E8E8E8;
+      color: black;
+   }
